@@ -1,0 +1,60 @@
+
+.titulo{
+	background: white;
+	display: flex;
+  	justify-content: center;
+	
+}
+.cabe{
+	display: flex;
+	width: 500px;
+}
+.cabe > h1{
+	float: left;
+}
+
+.contenido{
+	padding: 50px 0 50px 0;
+	background: lightgray;
+	
+	
+}
+.foto > strong {
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 95%;
+}
+.foto > strong::after{
+	content: "12/14";
+	color: lightgray;
+	float: right;
+}
+.foto{
+	margin: auto;
+	width: 500px;
+	height: 400px;
+	background: white;
+	margin-bottom: 50px;
+}
+.foto2{
+	margin: auto;
+	width: 500px;
+	height: 400px;
+	background: white;
+	margin-bottom: 50px;
+}
+.foto2 > strong {
+	float: left;
+	padding: 10px 0px 10px 10px;
+	width: 95%;
+}
+.foto2 > strong::after{
+	content: "17/14";
+	color: lightgray;
+	float: right;
+}
+p{
+	text-align: left;
+	padding: 0px 20px 15px 20px;
+	
+}
